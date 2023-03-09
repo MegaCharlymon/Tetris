@@ -367,8 +367,8 @@ void choose_new_piece() {
   
   // get the next piece in the sequence.
   
-  piece_id = piece_sequence[sequence_i++];
-  int next_piece = piece_sequence[sequence_i];
+ // piece_id = piece_sequence[sequence_i++];
+ // int next_piece = piece_sequence[sequence_i];
 
 /*switch (piece_sequence[sequence_i]) {
   case 0:
