@@ -367,10 +367,10 @@ void choose_new_piece() {
   
   // get the next piece in the sequence.
   
- // piece_id = piece_sequence[sequence_i++];
- // int next_piece = piece_sequence[sequence_i];
+  piece_id = piece_sequence[sequence_i++];
+  int next_piece = piece_sequence[sequence_i];
 
-/*switch (piece_sequence[sequence_i]) {
+switch (piece_sequence[sequence_i]) {
   case 0:
   dessinerS();
   break;
@@ -394,7 +394,7 @@ void choose_new_piece() {
   break;
 
 
-}*/
+}
   
   // always start the piece top center.
   piece_y=-4;  // -4 squares off the top of the screen.
